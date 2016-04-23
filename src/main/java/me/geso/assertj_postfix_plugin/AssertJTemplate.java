@@ -10,6 +10,9 @@ import com.intellij.codeInsight.template.postfix.templates.StringBasedPostfixTem
 import com.intellij.codeInsight.template.postfix.util.JavaPostfixTemplatesUtils;
 import com.intellij.psi.PsiElement;
 
+/**
+ * assertj template for core
+ */
 public class AssertJTemplate extends StringBasedPostfixTemplate {
 
     public AssertJTemplate() {
