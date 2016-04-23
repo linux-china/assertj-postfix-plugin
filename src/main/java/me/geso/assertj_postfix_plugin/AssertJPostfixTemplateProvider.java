@@ -14,6 +14,8 @@ public class AssertJPostfixTemplateProvider extends JavaPostfixTemplateProvider 
     public AssertJPostfixTemplateProvider() {
         templates = new HashSet<>();
         templates.add(new AssertJTemplate());
+        templates.add(new AssertJJsonTemplate());
+        templates.add(new AssertJGeneratorTemplate());
     }
 
     @NotNull
