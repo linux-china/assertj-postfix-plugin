@@ -1,0 +1,7 @@
+import static net.javacrumbs.jsonunit.fluent.JsonFluentAssert.assertThatJson;
+
+public class Foo {
+  void m(Object o) {
+      assertThat(o);
+  }
+}
