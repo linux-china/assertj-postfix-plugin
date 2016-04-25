@@ -7,7 +7,7 @@ This plugin adds `.assertThat` postfix completion.
 ### extension
 
 * assertThat for Assertion Generator: assertThatg
-* assertThat for json: assertThatj
+* assertThat for json: assertThatj, json path https://github.com/jayway/JsonPath
 
 ## Run plugin
 
